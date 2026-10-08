@@ -25,9 +25,9 @@ python compound_calc.py
 | 课次 | 目录 | 主题 | 教材章节 |
 |---|---|---|---|
 | 1 | lessons/01-compound-calculator | 首次人机协同循环：复利计算器 | 自编 |
-| 2 | lessons/02-git-workflow | Git 工作流（自学周） | 自编 |
-| 3 | lessons/03-pandas-report | pandas 数据初加工（自学周） | 自编 |
-| 4 | lessons/04-ecosystem | Python 生态地图 | 自编 |
+| 2 | lessons/02-git-workflow | Git 工作流（停课，并入课次4讲授） | 自编 |
+| 3 | lessons/03-pandas-report | pandas 数据初加工（停课，并入课次4讲授） | 自编 |
+| 4 | lessons/04-ecosystem | 三课合并讲授：Git+pandas+生态地图（10/9） | 自编 |
 | 5 | lessons/05-algorithm-basics | 复杂度与分治 | 第1、2章 |
 | 6 | lessons/06-greedy-dp | 贪心与动态规划 | 第4、5章 |
 | 7 | lessons/07-preprocess-classify | 预处理与决策树 | 第8章 |
