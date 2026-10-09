@@ -1,6 +1,10 @@
 # P4：分组统计与可视化（中文乱码处理）
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import pandas as pd
+
+Path("outputs").mkdir(exist_ok=True)
 
 plt.rcParams["font.sans-serif"] = ["SimHei", "Arial Unicode MS"]  # 中文
 plt.rcParams["axes.unicode_minus"] = False
@@ -14,5 +18,6 @@ plt.tight_layout()
 plt.savefig("outputs/city_balance.png")   # 检查点：图入库
 print("图已保存 outputs/city_balance.png")
 
+plt.figure()
 df["age"].plot(kind="hist", bins=20, title="客户年龄分布（教学虚构数据）")
 plt.savefig("outputs/age_hist.png")
