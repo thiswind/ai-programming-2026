@@ -1,4 +1,4 @@
-# 合并排序（教材第2章：分解-解决-合并）
+# 合并排序（分治三步：分解-解决-合并）
 def merge_sort(nums):
     if len(nums) <= 1:               # 基准情形：单元素天然有序
         return nums
